@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include "pico/stdlib.h"
 //#include <stdlib.h>
 
 //#include "pico/stdlib.h"
 //#include "hardware/pio.h"
 //#include "hardware/clocks.h"
-#include "pico/stdlib.h"
+
 
 int main() {
 	const uint LED_PIN = 10;
