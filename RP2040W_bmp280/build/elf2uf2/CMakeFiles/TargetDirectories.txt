@@ -1,0 +1,5 @@
+/home/x415ja/pico/RP2040W_C/RP2040W_bmp280/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/home/x415ja/pico/RP2040W_C/RP2040W_bmp280/build/elf2uf2/CMakeFiles/edit_cache.dir
+/home/x415ja/pico/RP2040W_C/RP2040W_bmp280/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/home/x415ja/pico/RP2040W_C/RP2040W_bmp280/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/home/x415ja/pico/RP2040W_C/RP2040W_bmp280/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
