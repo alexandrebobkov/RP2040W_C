@@ -1,0 +1,16 @@
+#set(PROJECT RP2040W_C)
+cmake_minimum_required(VERSION 3.13)
+include(/home/x415ja/pico/pico-sdk/pico_sdk_init.cmake)
+#include(pico_sdk_import.cmake)
+include(/home/x415ja/pico/pico-sdk/external/pico_sdk_import.cmake)
+#include(/home/x415ja/pico/pico-sdk/tools/CMakeLists.txt)
+project(picow_blink C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+pico_sdk_init()
+add_executable(picow_blink
+	picow_blink.c
+	)
+pico_add_extra_outputs(picow_blink)
+target_link_libraries(picow_blink PRIVATE pico_stdlib)
+#example_auto_set_url(picow_blink)
