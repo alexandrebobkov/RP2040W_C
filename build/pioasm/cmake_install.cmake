@@ -1,4 +1,4 @@
-# Install script for directory: /home/x415ja/pico/pico-sdk/tools/pioasm
+# Install script for directory: /opt/pico/pico-sdk/tools/pioasm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/x415ja/pico/RP2040W_C/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/x415ja/Programming/RP2040W_C/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

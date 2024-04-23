@@ -1,4 +1,4 @@
-# Install script for directory: /home/x415ja/pico/pico-sdk/tools
+# Install script for directory: /opt/pico/pico-sdk/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
